@@ -3,10 +3,74 @@
 %html(xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en")
   %head
     %meta{'http-equiv' => 'Content-Type', :content => 'text/html; charset=utf-8'}/
-    %title
-      II Congresso Nacional de Gastronomia
-      - if page.title
-        \-
-        = page.title
+    - %w{reset text 960 style sifr}.each do |style|
+      %link{:href => "css/#{style}.css", :rel => 'stylesheet'}
+    - %w{sifr sifr-config}.each do |js|
+      %script{ :src => "js/#{js}.js", :type => "text/javascript" }
+      %script{ :src => "js/#{js}.js", :type => "text/javascript" }
+
   %body
-    = content
+    #header
+      %h1
+        %a.notext{ :href => "#" }
+          II Congresso Nacional de Gastronomia
+
+    .container_16.start_footer
+      #sidebar.grid_3
+        %ul
+          %li
+            %a{ :href => "#" } Apresentação
+          %li
+            %a{ :href => "#" } Comissão Organizadora
+          %li
+            %a{ :href => "#" } Mensagem&nbsp;do&nbsp;Presidente
+          %li
+            %a{ :href => "#" } Programação
+          %li
+            %a{ :href => "#" } Inscrições
+          %li
+            %a{ :href => "#" } Trabalhos Científicos
+          %li
+            %a{ :href => "#" } Local do Evento
+          %li
+            %a{ :href => "#" } Agência de Turismo
+          %li
+            %a{ :href => "#" } Conheça Natal
+          %li
+            %a{ :href => "#" } Exposição
+          %li
+            %a{ :href => "#" } Planta&nbsp;
+          %li
+            %a{ :href => "#" } Expositores
+          %li
+            %a{ :href => "#" } Patrocinadores
+          %li.last
+            %a{ :href => "#" } Contato&nbsp;
+
+      #content.grid_13
+        = content
+      .clear
+    #footer
+      .container
+        .patrocinio_apoio
+          %a{ :href => "", :target => "_blank" }
+            %img.espace_patrocinio{ :src => "images/logo_emprotur.png", :alt => "Emprotur" }
+          %a{ :href => "http://www.bb.com.br", :target => "_blank" }
+            %img{ :src => "images/logo_bb.png", :alt => "Banco do Brasil" }
+          %a{ :href => "", :target => "_blank" }
+            %img{ :src => "images/logo_macaiba.png", :alt => "Prefeitura Municipal de Maca\303\255ba" }
+          %a{ :href => "", :target => "_blank" }
+            %img{ :src => "images/logo_ale.png", :alt => "Ale Combust\303\255veis" }
+          %a{ :href => "http://www.rn.gov.br", :target => "_blank" }
+            %img.espace_promocao{ :src => "images/logo_govrn.png", :alt => "Governo do RN" }
+          %a{ :href => "http://www.ideiaseventos.com.br", :target => "_blank" }
+            %img.espace_organizacao{ :src => "images/logo_ideias.png", :alt => "Id\303\251ias Eventos" }
+        .copyright
+          %span.name
+            ©2009 | II CONAG | II Congresso Nacional de Gastronomia
+          %br
+          %span.email
+            %a
+              conagnatal@ideiaseventos.com.br
+    #logo_conag
+      %img{ :src => "images/logo_conag.png", :alt => "II CONAG - Congresso Nacional de Gastronomia" }
