@@ -1,0 +1,4 @@
+haml:        true
+sass:        true
+permalink:   title
+
