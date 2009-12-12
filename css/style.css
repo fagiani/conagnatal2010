@@ -4,14 +4,14 @@ h2 {font-weight:bold;font-size:2.719em;}
 h3 {font-size:2.2em;}
 p {font-size:1.1em;line-height:14px;margin-bottom:16px;}
 
-#header { text-align: center; height: 146px; background: url(../images/header-bg.png) repeat-x scroll 0 0; }
+#header { text-align: center; height: 146px; background: url(../images/header-bg.png) repeat-x scroll 0 0; margin-bottom:8px;}
 #header h1 a { display: block; height: 125px; background: url(../images/header-title.png) no-repeat center top; }
-#sidebar ul { margin-top: 10px; list-style: none outside; }
+#sidebar ul { list-style: none outside; }
 #sidebar li { margin-left: 0; height: 21px; padding-top: 10px; background: url(../images/navigation-divider.png) no-repeat top; }
 #sidebar li .last { background: url(../images/navigation-divider.png) no-repeat bottom; }
 #sidebar li a { font: 14px Helvetica, Arial; color: #fec906; text-decoration: none; width: 160px; }
 #content .container_slider { height: auto; }
-#content .slider { background: #f6f6f6; border: 1px solid #d5d5d5; height: 350px; margin-top: 8px; background:url(../images/slides/background.jpg) repeat-x;}
+#content .slider { background: #f6f6f6; border: 1px solid #d5d5d5; height: 350px; background:url(../images/slides/background.jpg) repeat-x;}
 #content .slider .inside {height:310px;margin:10px;border:1px solid #d4d4d4;}
 #content .counter { background: url(../images/information_bg_remain_days.jpg) no-repeat right top; height:90px;}
 #content .presentation .title {font-weight:bold;font-size:1.6em;margin-bottom:8px;color:#f6ae19;}
