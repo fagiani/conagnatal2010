@@ -22,8 +22,8 @@
       #sidebar.grid_3
         %ul
           - menu_list.each do |url, text|
-            %li
-              %a{ :href => url }= text
+            %li{:class => "#{'current' if (variable('permalink') == url)}"}
+              %a{ :href => url}= text
 
       #content.grid_13
         - if layout_type == 'internal_page'
