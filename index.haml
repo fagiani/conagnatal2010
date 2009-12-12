@@ -3,9 +3,16 @@ layout: default
 title: Apresentação
 ---
 .slider
-  %div
-    slider
+  .inside
+    %a(class='prevPage')
+    %a(class='nextPage')
+    .scrollable
+      .items
+        - %w{slide1 1 2 3 4}.each do |slide_image|
+          %img{:src => "/images/slides/#{slide_image}.jpg"}/
+    .navi
 .clear
 .information
-  %div
-    information
+  %div &nbsp;
+:javascript
+  $(function() { $("div.scrollable").scrollable(); }); 
