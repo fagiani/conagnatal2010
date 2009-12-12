@@ -66,3 +66,14 @@ sIFR.replace(myriad_pro_semibold, {
   wmode: 'transparent'
 });
 
+sIFR.replace(myriad_pro_semibold, {
+  selector: '.internal_page h2',
+  css: [ '.sIFR-root { font-size: 2.719em; color: #f6ae19; background-color: #FFFFFF; }' ],
+  wmode: 'transparent'
+});
+
+sIFR.replace(myriad_pro_semibold, {
+  selector: '.internal_page h3',
+  css: [ '.sIFR-root { font-size: 2.2em; color: #f6ae19; background-color: #FFFFFF; }' ],
+  wmode: 'transparent'
+});

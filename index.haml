@@ -1,10 +1,11 @@
 ---
 layout: default
 title: Apresentação
+layout_type: start_page
 ---
 .grid_13
   #logo_conag.grid_4.alpha
-    %img{ :src => "images/logo_conag.png", :alt => "II CONAG - Congresso Nacional de Gastronomia" }
+    %img{ :src => "images/app/logo_conag.png", :alt => "II CONAG - Congresso Nacional de Gastronomia" }
   .grid_9.omega
     .grid_9
       .slider
@@ -12,7 +13,7 @@ title: Apresentação
           .slideshow
             .items
               - %w{0 1 2 3 4}.each do |slide_image|
-                %img{:src => "/images/slides/#{slide_image}.jpg"}/
+                %img{:src => "images/slides/#{slide_image}.jpg"}/
           .navi
     .grid_3.prefix_6.counter
       .text
