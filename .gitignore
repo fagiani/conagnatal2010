@@ -1,3 +1,5 @@
+*.swo
+**/*.swo
 *.swp
 **/*.swp
 _site/
