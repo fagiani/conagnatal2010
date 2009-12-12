@@ -22,59 +22,12 @@
 #footer .espace_organizacao { margin-left: 18px; }
 .notext { font-size: 0; line-height: 0; text-indent: -4000px; }
 
-/*
-    root element for the scrollable.
-    when scrolling occurs this element stays still.
-*/
-.scrollable {
-    /* required settings */
-    position:relative;
-    overflow:hidden;
-    width: 528px;
-    height:310px;
-}
 
-/*
-    root element for scrollable items. Must be absolutely positioned
-    and it should have a extremely large width to accomodate scrollable items.
-    it's enough that you set the width and height for the root element and
-    not for this element.
-*/
-.scrollable .items {
-    /* this cannot be too large */
-    width:20000em;
-    position:absolute;
-    clear:both;
-}
-
-/* single scrollable item */
-.scrollable img {
-    float:left;
-    cursor:pointer;
-    width:530px;
-    height:310px;
-}
-
-/* active item */
-.scrollable .active {
-    z-index:9999;
-    position:relative;
-}
-.prevPage, .nextPage {
-    background-image:url(i/nav/slide.png);
-    width:31px;
-    height:32px;
-    cursor:pointer;
-    position:absolute;
-    right:5px;
-    z-index:2;
-    text-indent:-9999em;
-}
-.prevPage {
-    background-position:left top;
-    top:5px;
-}
-.nextPage {
-    background-position:left bottom;
-    top:37px;
-}
+.slideshow { position:relative; overflow:hidden; height:310px; }
+.slideshow img { float:left; cursor:pointer; width:530px; height:310px; }
+.slideshow .items { width:20000em; position:absolute; clear:both; }
+.slideshow .active { z-index:9999; position:relative; }
+.navi { position:absolute; right:0; margin-top: 10px; margin-right: 10px; }
+.navi a { width:8px; height:8px; float:left; margin:3px; background:url(../images/slides/slide_navigator.png) 0 0 no-repeat; display:block; font-size:1px; cursor:pointer; }
+.navi a:hover { background-position:0 -8px; }
+.navi a.active { background-position:0 -16px;}

@@ -6,7 +6,7 @@ title: Apresentação
   .inside
     %a(class='prevPage')
     %a(class='nextPage')
-    .scrollable
+    .slideshow
       .items
         - %w{slide1 1 2 3 4}.each do |slide_image|
           %img{:src => "/images/slides/#{slide_image}.jpg"}/
@@ -15,4 +15,8 @@ title: Apresentação
 .information
   %div &nbsp;
 :javascript
-  $(function() { $("div.scrollable").scrollable(); }); 
+  jQuery(document).ready(function($){
+    $(".slideshow").scrollable({size: 1}).circular().navigator().autoscroll(3000);
+    $("a[href^='http:']").not("[href*='localhost']").attr('target','_blank');
+  });
+
