@@ -4,24 +4,24 @@ h2 {font-weight:bold;font-size:2.719em;}
 h3 {font-size:2.2em;}
 p {font-size:1.1em;line-height:14px;margin-bottom:16px;}
 
-#header { text-align: center; height: 146px; background: url(../images/header-bg.png) repeat-x scroll 0 0; margin-bottom:8px;}
-#header h1 a { display: block; height: 125px; background: url(../images/header-title.png) no-repeat center top; }
+#header { text-align: center; height: 146px; background: url(../images/app/header-bg.png) repeat-x scroll 0 0; margin-bottom:8px;}
+#header h1 a { display: block; height: 125px; background: url(../images/app/header-title.png) no-repeat center top; }
 #sidebar ul { list-style: none outside; }
-#sidebar li { margin-left: 0; height: 21px; padding-top: 10px; background: url(../images/navigation-divider.png) no-repeat top; }
-#sidebar li .last { background: url(../images/navigation-divider.png) no-repeat bottom; }
+#sidebar li { margin-left: 0; height: 21px; padding-top: 10px; background: url(../images/app/navigation-divider.png) no-repeat top; }
+#sidebar li .last { background: url(../images/app/navigation-divider.png) no-repeat bottom; }
 #sidebar li a { font: 14px Helvetica, Arial; color: #fec906; text-decoration: none; width: 160px; }
 #content .container_slider { height: auto; }
-#content .slider { background: #f6f6f6; border: 1px solid #d5d5d5; height: 350px; background:url(../images/slides/background.jpg) repeat-x;}
+#content .slider { background: #f6f6f6; border: 1px solid #d5d5d5; height: 350px; background:url(../images/app/slides/background.jpg) repeat-x;}
 #content .slider .inside {height:310px;margin:10px;border:1px solid #d4d4d4;}
-#content .counter { background: url(../images/information_bg_remain_days.jpg) no-repeat right top; height:90px;}
+#content .counter { background: url(../images/app/information_bg_remain_days.jpg) no-repeat right top; height:90px;}
 #content .presentation .title {font-weight:bold;font-size:1.6em;margin-bottom:8px;color:#f6ae19;}
 #content .photos { margin: 8px 7px 0px 8px; border: 1px solid #d5d5d5; height: 310px; }
 #content .current_photo { background: blue; height: 24px; }
 #logo_conag {margin-top: -70px; z-index:3;}
-.start_footer { background: url(../images/content_bg_index.jpg) no-repeat bottom; }
-.internal_footer { background: url(../images/content_bg_internal.jpg) no-repeat bottom; padding-bottom: 130px; }
-#footer { height: auto; background: url(../images/footer_bg_tecido.jpg) top center repeat-x; }
-#footer .container { width: 940px; margin-left: auto; margin-right: auto; margin-bottom: 10px; padding: 0 10px; background: url(../images/footer_bg_rolo.png) no-repeat top left; }
+.start_footer { background: url(../images/app/content_bg_index.jpg) no-repeat bottom; }
+.internal_footer { background: url(../images/app/content_bg_internal.jpg) no-repeat bottom; padding-bottom: 130px; }
+#footer { height: auto; background: url(../images/app/footer_bg_tecido.jpg) top center repeat-x; }
+#footer .container { width: 940px; margin-left: auto; margin-right: auto; margin-bottom: 10px; padding: 0 10px; background: url(../images/app/footer_bg_rolo.png) no-repeat top left; }
 #footer .patrocinio_apoio { height: 85px ; margin-bottom: 10px; padding: 25px 0px 0px 0px; }
 #footer .espace_patrocinio { margin-left: 180px; }
 #footer .espace_promocao { margin-left: 55px; }
@@ -34,6 +34,6 @@ p {font-size:1.1em;line-height:14px;margin-bottom:16px;}
 .slideshow .items { width:20000em; position:absolute; clear:both; }
 .slideshow .active { z-index:9999; position:relative; }
 .navi { position:absolute; right:0; margin-top: 10px; margin-right: 10px; }
-.navi a { width:8px; height:8px; float:left; margin:3px; background:url(../images/slides/slide_navigator.png) 0 0 no-repeat; display:block; font-size:1px; cursor:pointer; }
+.navi a { width:8px; height:8px; float:left; margin:3px; background:url(../images/app/slides/slide_navigator.png) 0 0 no-repeat; display:block; font-size:1px; cursor:pointer; }
 .navi a:hover { background-position:0 -8px; }
 .navi a.active { background-position:0 -16px;}
