@@ -16,17 +16,17 @@ module Helpers
       [ 'apresentacao', 'Apresentação'],
       [ 'comissao', 'Comissão Organizadora'],
       [ 'mensagem', 'Mensagem&nbsp;do&nbsp;Presidente'],
-      [ '#', ' Programação'],
-      [ '#', ' Inscrições'],
-      [ '#', ' Trabalhos Científicos'],
-      [ '#', ' Local do Evento'],
-      [ '#', ' Agência de Turismo'],
-      [ '#', ' Conheça Natal'],
-      [ '#', ' Exposição'],
-      [ '#', ' Planta&nbsp;'],
-      [ '#', ' Expositores'],
-      [ '#', ' Patrocinadores'],
-      [ '#', ' Contato&nbsp;']
+      [ 'programacao', ' Programação'],
+      [ 'inscricoes', ' Inscrições'],
+      [ 'trabalhos', ' Trabalhos Científicos'],
+      [ 'local', ' Local do Evento'],
+      [ 'agencia', ' Agência de Turismo'],
+      [ 'conheca-natal', ' Conheça Natal'],
+      [ 'exposicao', ' Exposição'],
+      [ 'planta', ' Planta&nbsp;'],
+      [ 'expositores', ' Expositores'],
+      [ 'patrocinadores', ' Patrocinadores'],
+      [ 'contato', ' Contato&nbsp;']
     ]
   end
 end
