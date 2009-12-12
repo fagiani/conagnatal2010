@@ -15,11 +15,16 @@ layout_type: start_page
               - %w{0 1 2 3 4}.each do |slide_image|
                 %img{:src => "images/slides/#{slide_image}.jpg"}/
           .navi
-    .grid_3.prefix_6.counter
-      .text
-        %span Faltam
-      .counttext
-        %span#countdown 0 Dias
+    .grid_9
+      .when.grid_4.prefix_1.alpha
+        %span.date 18 e 19 de junho de 2010
+        %br/
+        %span.where Hotel Pirâmide - Natal/RN
+      .counter.grid_3.prefix_1.omega
+        .text
+          %span Faltam
+        .counttext
+          %span#countdown 0 Dias
 .clear
 .presentation.grid_5.prefix_5
   .title

@@ -14,6 +14,10 @@ p {font-size:1.1em;line-height:14px;margin-bottom:16px;}
 #content .container_slider { height: auto; }
 #content .slider { background: #f6f6f6; border: 1px solid #d5d5d5; height: 350px; background:url(../images/slides/background.jpg) repeat-x;}
 #content .slider .inside {height:310px;margin:10px;border:1px solid #d4d4d4;}
+
+#content .when { color:#f6ae19; margin-top:20px; }
+#content .when .date { font-weight:bold; font-size:24px; letter-spacing:-3px; }
+#content .when .where { font-weight:bold; font-size:16px; }
 #content .counter { background: url(../images/app/information_bg_remain_days.jpg) no-repeat right top; height: 90px; }
 #content .counter .text { padding-top: 5px; }
 #content .counter span { padding-left: 13px; font-family: Georgia; font-size: 14px; color: #6f3415; }

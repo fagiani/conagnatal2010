@@ -77,3 +77,15 @@ sIFR.replace(myriad_pro_semibold, {
   css: [ '.sIFR-root { font-size: 2.2em; color: #f6ae19; background-color: #FFFFFF; }' ],
   wmode: 'transparent'
 });
+
+sIFR.replace(myriad_pro_semibold, {
+  selector: '.when .date',
+  css: [ '.sIFR-root { font-size: 23px; color: #f6ae19; background-color: #FFFFFF; letter-spacing:-2}' ],
+  wmode: 'transparent'
+});
+
+sIFR.replace(myriad_pro_semibold, {
+  selector: '.when .where',
+  css: [ '.sIFR-root { font-size: 16px; color: #f6ae19; background-color: #FFFFFF; }' ],
+  wmode: 'transparent'
+});
