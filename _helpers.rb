@@ -25,7 +25,7 @@ module Helpers
       [ 'exposicao', ' Exposição'],
       [ 'planta', ' Planta&nbsp;'],
       [ 'expositores', ' Expositores'],
-      [ 'patrocinadores', ' Patrocinadores'],
+      [ 'parceiros', ' Parceiros'],
       [ 'contato', ' Contato&nbsp;']
     ]
   end
