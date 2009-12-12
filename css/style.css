@@ -48,4 +48,5 @@ a:hover {text-decoration:underline;}
 .internal_page #content ul li {list-style:inside disc;color:#fac519;line-height:16px;font-size:12px;}
 .internal_page #content ul li strong {color:#fac519}
 .internal_page #content ul li p {color:#575757;}
+.internal_page #logo_conag {margin-top: 0; z-index:3;}
 

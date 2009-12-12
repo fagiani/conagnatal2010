@@ -30,8 +30,13 @@
 
       #content.grid_13
         - if layout_type == 'internal_page'
-          %h2= page.title
-        = content
+          #logo_conag.grid_3.pull_1.alpha
+            %img{ :src => "images/app/logo_conag_mini.png", :alt => "II CONAG - Congresso Nacional de Gastronomia" }
+          .grid_10.omega
+            %h2= page.title
+            = content
+        - else
+          = content
       .clear
     #footer
       .container
