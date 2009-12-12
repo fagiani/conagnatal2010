@@ -8,7 +8,7 @@ module Helpers
   end
 
   def footer_class
-    variable('footer_type') || 'internal_footer'
+    variable('type') || 'internal_page'
   end
 
   def menu_list
