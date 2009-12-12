@@ -21,7 +21,7 @@
         %a.notext(href='/')
           II Congresso Nacional de Gastronomia
 
-    %div{:class => "container_16 #{footer_class}"}
+    %div{:class => "container_16 #{layout_type}"}
       #sidebar.grid_3
         %ul
           - menu_list.each do |url, text|
@@ -29,6 +29,8 @@
               %a{ :href => url }= text
 
       #content.grid_13
+        - if layout_type == 'internal_page'
+          %h2= page.title
         = content
       .clear
     #footer

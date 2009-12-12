@@ -7,7 +7,7 @@ module Helpers
     end
   end
 
-  def footer_class
+  def layout_type
     variable('layout_type') || 'internal_page'
   end
 
