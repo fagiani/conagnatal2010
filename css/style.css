@@ -13,7 +13,10 @@ p {font-size:1.1em;line-height:14px;margin-bottom:16px;}
 #content .container_slider { height: auto; }
 #content .slider { background: #f6f6f6; border: 1px solid #d5d5d5; height: 350px; margin-top: 8px; background:url(../images/slides/background.jpg) repeat-x;}
 #content .slider .inside {height:310px;margin:10px;border:1px solid #d4d4d4;}
-#content .counter { background: url(../images/information_bg_remain_days.jpg) no-repeat right top; height:90px;}
+#content .counter { background: url(../images/information_bg_remain_days.jpg) no-repeat right top; height: 90px; }
+#content .counter .text { padding-top: 5px; }
+#content .counter span { padding-left: 13px; font-family: Georgia; font-size: 14px; color: #6f3415; }
+#content .counter #countdown { font-size: 28px; font-weight: bold; }
 #content .presentation .title {font-weight:bold;font-size:1.6em;margin-bottom:8px;color:#f6ae19;}
 #content .photos { margin: 8px 7px 0px 8px; border: 1px solid #d5d5d5; height: 310px; }
 #content .current_photo { background: blue; height: 24px; }
@@ -37,3 +40,4 @@ p {font-size:1.1em;line-height:14px;margin-bottom:16px;}
 .navi a { width:8px; height:8px; float:left; margin:3px; background:url(../images/slides/slide_navigator.png) 0 0 no-repeat; display:block; font-size:1px; cursor:pointer; }
 .navi a:hover { background-position:0 -8px; }
 .navi a.active { background-position:0 -16px;}
+
