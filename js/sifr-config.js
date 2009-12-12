@@ -58,7 +58,7 @@ sIFR.activate(myriad_pro_semibold);
 sIFR.replace(myriad_pro_semibold, {
   selector: '#sidebar li',
   css: [ 
-    '.sIFR-root { font-size: 13px; color: #fec906; background-color: #FFFFFF; }',
+    '.sIFR-root { font-size: 13px; color: #f6ae19; background-color: #FFFFFF; }',
     'a { text-decoration: none; }',
     'a:link { color: #fec906; }',
     'a:hover { color: #CCCCCC; }'

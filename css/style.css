@@ -1,3 +1,9 @@
+body {line-height:1;font-size:62.5%;font-family:Arial, Helvetica, Verdana, sans-serif;color:#575757;}
+h1, h2, h3, h4, h5, h6 { color:#f6ae19; }
+h2 {font-weight:bold;font-size:2.719em;}
+h3 {font-size:2.2em;}
+p {font-size:1.1em;line-height:14px;margin-bottom:16px;}
+
 #header { text-align: center; height: 146px; background: url(../images/header-bg.png) repeat-x scroll 0 0; }
 #header h1 a { display: block; height: 125px; background: url(../images/header-title.png) no-repeat center top; }
 #sidebar ul { margin-top: 10px; list-style: none outside; }
@@ -5,17 +11,18 @@
 #sidebar li .last { background: url(../images/navigation-divider.png) no-repeat bottom; }
 #sidebar li a { font: 14px Helvetica, Arial; color: #fec906; text-decoration: none; width: 160px; }
 #content .container_slider { height: auto; }
-#content .slider { background: #f6f6f6; border: 1px solid #d5d5d5; float: right;; height: 350px; width: 550px; margin-top: 8px; background:url(../images/slides/background.jpg) repeat-x;}
-#content .slider_controls { width: 45px; height: 90px; float: right; position: relative; background: red; }
+#content .slider { background: #f6f6f6; border: 1px solid #d5d5d5; height: 350px; margin-top: 8px; background:url(../images/slides/background.jpg) repeat-x;}
 #content .slider .inside {height:310px;margin:10px;border:1px solid #d4d4d4;}
-#content .information { height: 280px; background: url(../images/information_bg_remain_days.jpg) no-repeat right top; }
+#content .slider_bottom { height: 280px; background: url(../images/information_bg_remain_days.jpg) no-repeat right top; }
+#content .slider_bottom .presentation {padding-top:150px;}
+#content .slider_bottom .presentation .title {font-weight:bold;font-size:1.6em;margin-bottom:8px;color:#f6ae19;}
 #content .photos { margin: 8px 7px 0px 8px; border: 1px solid #d5d5d5; height: 310px; }
 #content .current_photo { background: blue; height: 24px; }
 #logo_conag { position: absolute; width: 340; height: 600px; top: 70px; left: 50%; margin-left: -290px; margin-top: 0px;  position: absolute; z-index:9999}
 .start_footer { background: url(../images/content_bg_index.jpg) no-repeat bottom; }
 .internal_footer { background: url(../images/content_bg_internal.jpg) no-repeat bottom; padding-bottom: 130px; }
 #footer { height: auto; background: url(../images/footer_bg_tecido.jpg) top center repeat-x; }
-#footer .container { width: 940px; margin-left: auto; margin-right: auto; margin-bottom: 10px; padding: 0 10px; background: url(../images/footer_bg_rolo.png) no-repeat top left; overflow: auto; }
+#footer .container { width: 940px; margin-left: auto; margin-right: auto; margin-bottom: 10px; padding: 0 10px; background: url(../images/footer_bg_rolo.png) no-repeat top left; }
 #footer .patrocinio_apoio { height: 85px ; margin-bottom: 10px; padding: 25px 0px 0px 0px; }
 #footer .espace_patrocinio { margin-left: 180px; }
 #footer .espace_promocao { margin-left: 55px; }
