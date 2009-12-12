@@ -56,12 +56,23 @@ sIFR.activate(myriad_pro_semibold);
 //   css: '.sIFR-root { background-color: #F9F9F9; color: #FF0000; }'
 // });
 sIFR.replace(myriad_pro_semibold, {
+  selector: '#sidebar li.current',
+  css: [ 
+    '.sIFR-root { font-size: 13px; margin-left: 7; color: #ffffff; background-color: #f6ae19; }',
+    'a { text-decoration: none; }',
+    'a:link { color: #ffffff; }',
+    'a:hover { color: #f7a716; }'
+  ],
+  wmode: 'transparent'
+});
+
+sIFR.replace(myriad_pro_semibold, {
   selector: '#sidebar li',
   css: [ 
     '.sIFR-root { font-size: 13px; color: #f6ae19; background-color: #FFFFFF; }',
     'a { text-decoration: none; }',
     'a:link { color: #fec906; }',
-    'a:hover { color: #CCCCCC; }'
+    'a:hover { color: #f7a716; }'
   ],
   wmode: 'transparent'
 });
