@@ -15,16 +15,12 @@ module Helpers
     [
       [ 'apresentacao', 'Apresentação'],
       [ 'comissao', 'Comissão Organizadora'],
-      [ 'mensagem', 'Mensagem&nbsp;do&nbsp;Presidente'],
-      [ 'programacao', ' Programação'],
       [ 'inscricoes', ' Inscrições'],
       [ 'trabalhos', ' Trabalhos Científicos'],
       [ 'local', ' Local do Evento'],
       [ 'agencia-de-turismo', ' Agência de Turismo'],
       [ 'conheca-natal', ' Conheça Natal'],
       [ 'exposicao', ' Exposição'],
-      [ 'planta', ' Planta&nbsp;'],
-      [ 'expositores', ' Expositores'],
       [ 'parceiros', ' Parceiros'],
       [ 'contato', ' Contato&nbsp;']
     ]
