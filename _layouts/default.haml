@@ -24,34 +24,9 @@
     %div{:class => "container_16 #{footer_class}"}
       #sidebar.grid_3
         %ul
-          %li
-            %a{ :href => "#" } Apresentação
-          %li
-            %a{ :href => "#" } Comissão Organizadora
-          %li
-            %a{ :href => "#" } Mensagem&nbsp;do&nbsp;Presidente
-          %li
-            %a{ :href => "#" } Programação
-          %li
-            %a{ :href => "#" } Inscrições
-          %li
-            %a{ :href => "#" } Trabalhos Científicos
-          %li
-            %a{ :href => "#" } Local do Evento
-          %li
-            %a{ :href => "#" } Agência de Turismo
-          %li
-            %a{ :href => "#" } Conheça Natal
-          %li
-            %a{ :href => "#" } Exposição
-          %li
-            %a{ :href => "#" } Planta&nbsp;
-          %li
-            %a{ :href => "#" } Expositores
-          %li
-            %a{ :href => "#" } Patrocinadores
-          %li.last
-            %a{ :href => "#" } Contato&nbsp;
+          - menu_list.each do |url, text|
+            %li
+              %a{ :href => url }= text
 
       #content.grid_13
         = content
