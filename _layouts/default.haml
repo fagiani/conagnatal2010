@@ -2,6 +2,11 @@
 !!!
 %html(xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en")
   %head
+    %title
+      II Congresso Nacional de Gastronomia
+      - if page.title
+        \-
+        = page.title
     %meta{'http-equiv' => 'Content-Type', :content => 'text/html; charset=utf-8'}/
     - %w{reset text 960 style sifr}.each do |style|
       %link{:href => "css/#{style}.css", :rel => 'stylesheet'}
@@ -16,7 +21,7 @@
         %a.notext{ :href => "#" }
           II Congresso Nacional de Gastronomia
 
-    .container_16.start_footer
+    %div{:class => "container_16 #{footer_class}"}
       #sidebar.grid_3
         %ul
           %li
