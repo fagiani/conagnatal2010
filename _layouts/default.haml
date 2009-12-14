@@ -8,7 +8,10 @@
         \-
         = page.title
     %meta{'http-equiv' => 'Content-Type', :content => 'text/html; charset=utf-8'}/
-    - %w{reset text 960 style sifr}.each do |style|
+    %link{:href => "css/sifr.css", :rel => 'stylesheet'}
+    - %w{sifr sifr-config}.each do |js|
+      %script{ :src => "js/#{js}.js", :type => 'text/javascript'}
+    - %w{reset text 960 style}.each do |style|
       %link{:href => "css/#{style}.css", :rel => 'stylesheet'}
     / [if IE]<link rel="stylesheet" href="css/ie.css" type="text/css" media="screen" /><![endif]
 
