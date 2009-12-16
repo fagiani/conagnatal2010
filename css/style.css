@@ -14,6 +14,8 @@ a {color: #f6ae19 }
 #sidebar li.current { background-color: #fec906; }
 #sidebar li a { font: 14px Helvetica, Arial; color: #fec906; text-decoration: none; width: 160px; }
 #sidebar li.current a { padding-left: 7px; color: #fff; }
+#content li span { color: #575757; list-style-type: none; } 
+#content ul.menu li a { font-size:16px; color: #575757; }
 #content .container_slider { height: auto; }
 #content .slider { background: #f6f6f6; border: 1px solid #d5d5d5; height: 350px; background:url(../images/slides/background.jpg) repeat-x;}
 #content .slider .inside {height:310px;margin:10px;border:1px solid #d4d4d4;}
@@ -49,12 +51,26 @@ a {color: #f6ae19 }
 .navi a.active { background-position:0 -16px;}
 
 /* Pages */
-.internal_page #content p, .internal_page #content strong {font-size:1.2em;line-height:16px;}
+.internal_page #content p, .internal_page #content strong {font-size:13px;line-height:16px;}
+.internal_page #content ol li { font-size:13px !important; }
 .internal_page #content h2, .internal_page #content h3 {margin-bottom:10px;}
 .internal_page #content ul {margin-bottom:20px;}
 .internal_page #content ul li {list-style:inside disc;color:#fac519;line-height:16px;font-size:12px;}
 .internal_page #content ul li strong {color:#fac519}
-.internal_page #content ul li p {color:#575757;}
+.internal_page #content li p {color:#575757; font-size:12px;}
 .internal_page #logo_conag {margin-top: 0; z-index:3;}
 .internal_page a {color:#333;text-decoration:none;}
 .internal_page a:hover {text-decoration:underline;}
+
+/* Tabela */
+
+
+
+#tabela{ font-size: 12px; margin: 45px; width: 480px; text-align: left;	border-collapse: collapse; }
+#tabela th{ font-size: 13px; font-weight: normal; padding: 8px; background: #b9c9fe url('table-images/gradhead.png') repeat-x;
+                  border-top: 2px solid #d3ddff; border-bottom: 1px solid #fff; color: #039; }
+#tabela td{ padding: 8px; border-bottom: 1px solid #fff; color: #669; border-top: 1px solid #fff; background: #e8edff url('table-images/gradback.png') repeat-x; }
+#tabela tfoot tr td{ background: #e8edff; font-size: 12px; color: #99c;}
+#tabela tbody tr:hover td{ background: #d0dafd url('table-images/gradhover.png') repeat-x; color: #339;} 
+#tabela td.dia { text-align: center; font-weight: bold; }
+

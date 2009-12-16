@@ -39,20 +39,19 @@
           = content
       .clear
     #footer
-      .container
+      .container.container_16
         .patrocinio_apoio
-          %a{ :href => "", :target => "_blank" }
-            %img.espace_patrocinio{ :src => "images/app/logo_emprotur.png", :alt => "Emprotur" }
-          %a{ :href => "http://www.bb.com.br", :target => "_blank" }
-            %img{ :src => "images/app/logo_bb.png", :alt => "Banco do Brasil" }
-          %a{ :href => "", :target => "_blank" }
-            %img{ :src => "images/app/logo_macaiba.png", :alt => "Prefeitura Municipal de Maca\303\255ba" }
-          %a{ :href => "", :target => "_blank" }
-            %img{ :src => "images/app/logo_ale.png", :alt => "Ale Combust\303\255veis" }
-          %a{ :href => "http://www.rn.gov.br", :target => "_blank" }
-            %img.espace_promocao{ :src => "images/app/logo_govrn.png", :alt => "Governo do RN" }
-          %a{ :href => "http://www.ideiaseventos.com.br", :target => "_blank" }
-            %img.espace_organizacao{ :src => "images/app/logo_ideias.png", :alt => "Id\303\251ias Eventos" }
+          .grid_3.prefix_5.alpha
+            %a{ :href => "http://www.natal.rn.gov.br", :target => "_blank" }
+              %img{ :src => "images/app/natal-logo.png", :alt => "Prefeitura do Natal" }
+            %a{ :href => "http://www.rn.gov.br", :target => "_blank" }
+              %img{ :src => "images/app/logo_govrn.png", :alt => "Governo do RN" }
+          .grid_2.prefix_2
+            %a{ :href => "http://www.unp.br", :target => "_blank" }
+              %img{ :src => "images/app/logo_unp.png", :alt => "Prefeitura do Natal" }
+          .grid_2.omega
+            %a{ :href => "http://www.ideiaseventos.com.br", :target => "_blank" }
+              %img{ :src => "images/app/logo_ideias.png", :alt => "Id\303\251ias Eventos" }
         .copyright
           %span.name
             ©2009 | II CONAG | II Congresso Nacional de Gastronomia
@@ -61,5 +60,5 @@
             %a{ :href => "mailto:conagnatal2010@ideiaseventos.com.br" }
               conagnatal2010@ideiaseventos.com.br
     %script{ :src => 'http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js', :type => 'text/javascript' }
-    - %w{sifr sifr-config jquery.tools.min theme}.each do |js|
+    - %w{sifr sifr-config jquery.tools.min theme gridder}.each do |js|
       %script{ :src => "js/#{js}.js", :type => 'text/javascript'}
