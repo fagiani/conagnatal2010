@@ -1,0 +1,92 @@
+body {
+  font: normal 11px auto Arial, Verdana, Helvetica, sans-serif;
+}
+
+a {
+  color: #c75f3e;
+}
+
+#mytable {
+  width: 700px;
+  padding: 0;
+  margin: 0;
+}
+
+caption {
+  padding: 0 0 5px 0;
+  width: 700px;   
+  font: bold 20px Helvetica,"Trebuchet MS", Verdana, Arial, sans-serif;
+  text-align: left;
+  color:#7B7B7B;
+}
+
+th {
+  font: bold 11px "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;
+  color: #FFF;
+  border-right: 1px solid #C1DAD7;
+  border-bottom: 1px solid #C1DAD7;
+  border-top: 1px solid #C1DAD7;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  text-align: left;
+  padding: 6px 6px 6px 12px;
+  background: #107096;
+}
+
+th.nobg {
+  border-top: 0;
+  border-left: 0;
+  border-right: 1px solid #C1DAD7;
+  background: none;
+}
+
+td {
+  border-right: 1px solid #C1DAD7;
+  border-bottom: 1px solid #C1DAD7;
+  background: #fff;
+  padding: 6px 6px 6px 12px;
+  color: #4f6b72;
+}
+
+
+td.alt {
+  background: #F5FAFA;
+  color: #797268;
+}
+
+th.spec {
+  border-left: 1px solid #C1DAD7;
+  border-top: 0;
+  background: #fff;
+  font: bold 10px "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;
+}
+
+th.specalt {
+  border-left: 1px solid #C1DAD7;
+  border-top: 0;
+  background: #f5fafa;
+  font: bold 10px "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;
+  color: #797268;
+}
+
+h2.head {display:none;}
+
+#main dt  {float:left;width:200px;}
+.participede .empty {background:none;border:0 none;}
+.participede table {margin-bottom:20px;}
+
+/**Messages**/
+.participede #error {
+margin-bottom:0.8em;
+margin-top:0.8em;
+}
+.participede #error, .parcitipede .notice, .parcitipede .success {
+border:2px solid #DDDDDD;
+margin-bottom:1em;
+padding:0.8em;
+}
+.participede #error {
+background:#FBE3E4 none repeat scroll 0 0;
+border-color:#FBC2C4;
+color:#8A1F11;
+}
