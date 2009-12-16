@@ -6,11 +6,14 @@ a {
   color: #c75f3e;
 }
 
-#mytable {
-  width: 700px;
-  padding: 0;
-  margin: 0;
-}
+/* Tabela */
+
+table { font-size: 12px; width: 480px; text-align: left; border-collapse: collapse; }
+table th{ font-size: 13px; font-weight: normal; padding: 8px; background: #ffe7b8;
+                  border-top: 2px solid #fff; border-bottom: 1px solid #fff; color: #575757; }
+table td{ padding: 8px; border-bottom: 1px solid #fff; color: #575757; border-top: 1px solid #fff; background: #fff5e4 }
+table tbody tr:hover td{ background: #fcedd3; color: #575757;} 
+table td.dia { text-align: center; font-weight: bold; }
 
 caption {
   padding: 0 0 5px 0;
@@ -19,6 +22,8 @@ caption {
   text-align: left;
   color:#7B7B7B;
 }
+
+/*
 
 th {
   font: bold 11px "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;
@@ -68,6 +73,7 @@ th.specalt {
   font: bold 10px "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;
   color: #797268;
 }
+*/
 
 h2.head {display:none;}
 
