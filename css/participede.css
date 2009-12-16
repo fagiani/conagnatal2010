@@ -15,6 +15,8 @@ table td{ padding: 8px; border-bottom: 1px solid #fff; color: #575757; border-to
 table tbody tr:hover td{ background: #fcedd3; color: #575757;} 
 table td.dia { text-align: center; font-weight: bold; }
 
+input { width: 60% }
+
 caption {
   padding: 0 0 5px 0;
   width: 700px;   
@@ -22,58 +24,6 @@ caption {
   text-align: left;
   color:#7B7B7B;
 }
-
-/*
-
-th {
-  font: bold 11px "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;
-  color: #FFF;
-  border-right: 1px solid #C1DAD7;
-  border-bottom: 1px solid #C1DAD7;
-  border-top: 1px solid #C1DAD7;
-  letter-spacing: 2px;
-  text-transform: uppercase;
-  text-align: left;
-  padding: 6px 6px 6px 12px;
-  background: #107096;
-}
-
-th.nobg {
-  border-top: 0;
-  border-left: 0;
-  border-right: 1px solid #C1DAD7;
-  background: none;
-}
-
-td {
-  border-right: 1px solid #C1DAD7;
-  border-bottom: 1px solid #C1DAD7;
-  background: #fff;
-  padding: 6px 6px 6px 12px;
-  color: #4f6b72;
-}
-
-
-td.alt {
-  background: #F5FAFA;
-  color: #797268;
-}
-
-th.spec {
-  border-left: 1px solid #C1DAD7;
-  border-top: 0;
-  background: #fff;
-  font: bold 10px "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;
-}
-
-th.specalt {
-  border-left: 1px solid #C1DAD7;
-  border-top: 0;
-  background: #f5fafa;
-  font: bold 10px "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;
-  color: #797268;
-}
-*/
 
 h2.head {display:none;}
 
