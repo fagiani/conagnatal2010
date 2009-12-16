@@ -15,14 +15,16 @@ table td{ padding: 8px; border-bottom: 1px solid #fff; color: #575757; border-to
 table tbody tr:hover td{ background: #fcedd3; color: #575757;} 
 table td.dia { text-align: center; font-weight: bold; }
 
-input { width: 60% }
-
 caption {
   padding: 0 0 5px 0;
   width: 700px;   
   font: bold 20px Helvetica,"Trebuchet MS", Verdana, Arial, sans-serif;
   text-align: left;
   color:#7B7B7B;
+}
+
+form.formtastic fieldset ol li.string input {
+  width: 60%
 }
 
 h2.head {display:none;}
