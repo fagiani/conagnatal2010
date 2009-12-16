@@ -67,10 +67,9 @@ a {color: #f6ae19 }
 
 
 #tabela{ font-size: 12px; margin: 45px; width: 480px; text-align: left;	border-collapse: collapse; }
-#tabela th{ font-size: 13px; font-weight: normal; padding: 8px; background: #b9c9fe url('table-images/gradhead.png') repeat-x;
-                  border-top: 2px solid #d3ddff; border-bottom: 1px solid #fff; color: #039; }
-#tabela td{ padding: 8px; border-bottom: 1px solid #fff; color: #669; border-top: 1px solid #fff; background: #e8edff url('table-images/gradback.png') repeat-x; }
-#tabela tfoot tr td{ background: #e8edff; font-size: 12px; color: #99c;}
-#tabela tbody tr:hover td{ background: #d0dafd url('table-images/gradhover.png') repeat-x; color: #339;} 
+#tabela th{ font-size: 13px; font-weight: normal; padding: 8px; background: #ffe7b8;
+                  border-top: 2px solid #fff; border-bottom: 1px solid #fff; color: #575757; }
+#tabela td{ padding: 8px; border-bottom: 1px solid #fff; color: #575757; border-top: 1px solid #fff; background: #fff5e4 }
+#tabela tbody tr:hover td{ background: #fcedd3; color: #575757;} 
 #tabela td.dia { text-align: center; font-weight: bold; }
 
