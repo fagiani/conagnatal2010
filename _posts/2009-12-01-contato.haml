@@ -5,12 +5,13 @@ title: Contato
 %form#contato{ :action => 'http://participe.de/events/ii-conag-congresso-nacional-de-gastronomia/contacts', :method => 'post' }
   %fieldset
     %label Nome:
-    %input{ :name => 'nome' }
+    %input.text{ :name => 'nome' }
     %label E-mail:
-    %input{ :name => 'email' }
+    %input.text{ :name => 'email' }
     %label Telefone:
-    %input{ :name => 'telefone' }
+    %input.text{ :name => 'telefone' }
     %label Mensagem:
-    %textarea{ :name => 'mensagem' }
+    %textarea.text{ :name => 'mensagem' }
     %br
-    %input#enviar{ :name => 'submit', :value => 'Enviar', :type => 'submit' }
+    %br
+    %input#enviar{ :name => 'submit', :value => 'enviar', :type => 'submit' }

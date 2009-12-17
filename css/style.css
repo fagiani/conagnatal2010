@@ -75,5 +75,7 @@ a {color: #f6ae19 }
 
 /* Contato */
 #contato fieldset { border: none; }
-#contato fieldset label { display: block; }
-#contato fieldset textarea { width: 400px; height: 200px; }
+#contato fieldset label { display: block; color: #974e36; padding: 6px 0 3px 6px; font-size: 11px; }
+#contato fieldset .text { width: 400px; padding: 5px; background: #fac519; border: 0px; -moz-border-radius: 10px; -webkit-border-radius: 10px; }
+#contato fieldset textarea { height: 200px; }
+#contato #enviar { background: #fff; color: #fac519; border: 0px; font-size: 20px; font-weight: bold; }
