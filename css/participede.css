@@ -34,16 +34,12 @@ h2.head {display:none;}
 .participede table {margin-bottom:20px;}
 
 /**Messages**/
-.participede #error {
-margin-bottom:0.8em;
-margin-top:0.8em;
-}
-.participede #error, .parcitipede .notice, .parcitipede .success {
+#error, #notice, #success {
 border:2px solid #DDDDDD;
 margin-bottom:1em;
 padding:0.8em;
 }
-.participede #error {
+#error {
 background:#FBE3E4 none repeat scroll 0 0;
 border-color:#FBC2C4;
 color:#8A1F11;
