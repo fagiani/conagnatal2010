@@ -2,3 +2,15 @@
 layout: default
 title: Contato
 ---
+%form#contato{ :action => 'http://participe.de/events/ii-conag-congresso-nacional-de-gastronomia/contacts', :method => 'post' }
+  %fieldset
+    %label Nome:
+    %input{ :name => 'nome' }
+    %label E-mail:
+    %input{ :name => 'email' }
+    %label Telefone:
+    %input{ :name => 'telefone' }
+    %label Mensagem:
+    %textarea{ :name => 'mensagem' }
+    %br
+    %input#enviar{ :name => 'submit', :value => 'Enviar', :type => 'submit' }

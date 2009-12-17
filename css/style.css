@@ -73,3 +73,7 @@ a {color: #f6ae19 }
 #tabela tbody tr:hover td{ background: #fcedd3; color: #575757;} 
 #tabela td.dia { text-align: center; font-weight: bold; }
 
+/* Contato */
+#contato fieldset { border: none; }
+#contato fieldset label { display: block; }
+#contato fieldset textarea { width: 400px; height: 200px; }
