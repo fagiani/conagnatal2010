@@ -33,14 +33,3 @@ h2.head {display:none;}
 .participede .empty {background:none;border:0 none;}
 .participede table {margin-bottom:20px;}
 
-/**Messages**/
-#error, #notice, #success {
-border:2px solid #DDDDDD;
-margin-bottom:1em;
-padding:0.8em;
-}
-#error {
-background:#FBE3E4 none repeat scroll 0 0;
-border-color:#FBC2C4;
-color:#8A1F11;
-}
