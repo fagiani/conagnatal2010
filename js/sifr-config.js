@@ -97,6 +97,6 @@ sIFR.replace(myriad_pro_semibold, {
 
 sIFR.replace(myriad_pro_semibold, {
   selector: '.when .where',
-  css: [ '.sIFR-root { font-size: 16px; color: #f6ae19; background-color: #FFFFFF; }' ],
+  css: [ '.sIFR-root { font-size: 16px; letter-spacing:-1.2; color: #f6ae19; background-color: #FFFFFF; }' ],
   wmode: 'transparent'
 });

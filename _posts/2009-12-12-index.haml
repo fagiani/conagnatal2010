@@ -3,27 +3,24 @@ layout: default
 title: Início
 layout_type: start_page
 ---
-.grid_13
-  #logo_conag.grid_4.alpha
-    %img{ :src => "images/app/logo_conag.png", :alt => "II CONAG - Congresso Nacional de Gastronomia" }
-  .grid_9.omega
-    .grid_9
-      .slider
-        .inside
-          .slideshow
-            .items
-              - 6.times do |slide_image|
-                %img{:src => "images/slides/#{slide_image}.jpg"}/
-          .navi
-    .grid_9
-      .when.grid_5.prefix_1.alpha
-        %span.date 06 a 08 de abril de 2010
-        %span.where Centro de Convenções de Natal
-      .counter.grid_3.omega
-        .text
-          %span Faltam
-        .counttext
-          %span#countdown 0 Dias
+#logo_conag.grid_4.alpha
+  %img{ :src => "images/app/logo_conag.png", :alt => "II CONAG - Congresso Nacional de Gastronomia" }
+.grid_9.omega
+  .slider
+    .inside
+      .slideshow
+        .items
+          - 6.times do |slide_image|
+            %img{:src => "images/slides/#{slide_image}.jpg"}/
+      .navi
+  .when.grid_4.prefix_1.alpha
+    %span.date 06 a 08 de abril de 2010
+    %span.where Centro de Convenções de Natal
+  .counter.grid_4.omega
+    .text
+      %span Faltam
+    .counttext
+      %span#countdown 0 Dias
 .clear
 .presentation.grid_5.prefix_5
   .title
