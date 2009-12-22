@@ -14,6 +14,7 @@ a {color: #f6ae19 }
 #sidebar li.current { background-color: #fec906; }
 #sidebar li a { font: 14px Helvetica, Arial; color: #fec906; text-decoration: none; width: 160px; }
 #sidebar li.current a { padding-left: 7px; color: #fff; }
+#content li a.mail { color: #fec906; }
 #content li span { color: #575757; list-style-type: none; } 
 #content ul.menu li a { font-size:16px; color: #575757; }
 #content .container_slider { height: auto; }
