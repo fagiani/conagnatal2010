@@ -16,7 +16,7 @@ a {color: #f6ae19 }
 #sidebar li.current a { padding-left: 7px; color: #fff; }
 #content li a.mail { color: #fec906; }
 #content li span { color: #575757; list-style-type: none; } 
-#content ul.menu li a { font-size:16px; color: #575757; }
+#content ul.menu li a { font-size:14px; color: #575757; }
 #content .container_slider { height: auto; }
 #content .slider { background: #f6f6f6; border: 1px solid #d5d5d5; height: 350px; background:url(../images/slides/background.jpg) repeat-x;}
 #content .slider .inside {height:310px;margin:10px;border:1px solid #d4d4d4;}
@@ -60,8 +60,7 @@ a {color: #f6ae19 }
 .internal_page #content ul li strong {color:#fac519}
 .internal_page #content li p {color:#575757; font-size:12px;}
 .internal_page #logo_conag {margin-top: 0; z-index:3;}
-.internal_page a {color:#333;text-decoration:none;}
-.internal_page a:hover {text-decoration:underline;}
+.internal_page a {color:#333;}
 
 /* Tabela */
 
