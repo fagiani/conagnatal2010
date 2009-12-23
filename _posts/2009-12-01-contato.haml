@@ -1,17 +1,20 @@
 ---
 layout: default
 title: Contato
+javascript: $(document).ready(function(){ $('#contato').validate() })
 ---
 %form#contato{ :action => 'http://participe.de/events/ii-conag-congresso-nacional-de-gastronomia/contacts', :method => 'post' }
   %fieldset
     %label Nome:
-    %input.text{ :name => 'nome' }
+    %input.text.required{ :name => 'nome' }
     %label E-mail:
-    %input.text{ :name => 'email' }
+    %input.text.email{ :name => 'email' }
     %label Telefone:
     %input.text{ :name => 'telefone' }
     %label Mensagem:
-    %textarea.text{ :name => 'mensagem' }
+    %textarea.text.required{ :name => 'mensagem' }
     %br
     %br
     %input#enviar{ :name => 'submit', :value => 'enviar', :type => 'submit' }
+
+
