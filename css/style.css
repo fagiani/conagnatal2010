@@ -66,7 +66,7 @@ a {color: #f6ae19 }
 
 
 
-#tabela{ font-size: 12px; width: 480px; text-align: left; border-collapse: collapse; }
+#tabela{ font-size: 12px; text-align: left; border-collapse: collapse; }
 #tabela th{ font-size: 13px; font-weight: normal; padding: 8px; background: #ffe7b8;
                   border-top: 2px solid #fff; border-bottom: 1px solid #fff; color: #575757; }
 #tabela td{ padding: 8px; border-bottom: 1px solid #fff; color: #575757; border-top: 1px solid #fff; background: #fff5e4 }
