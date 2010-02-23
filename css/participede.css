@@ -1,11 +1,7 @@
-body {
-  font: bold 16px auto Arial, Verdana, Helvetica, sans-serif;
-}
+body { font: bold 16px auto Arial, Verdana, Helvetica, sans-serif; color: #7B7B7B; }
 
-a {
-  color: #c75f3e;
-}
-
+a { color: #F6AE19; }
+p { font-size: 14px; }
 /* Tabela */
 
 table { font-size: 12px; width:600px; text-align: left; border-collapse: collapse; }
