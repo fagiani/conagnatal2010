@@ -10,19 +10,19 @@ title: Programação
     %th{ :scope => "col"} Horário
     %th{ :scope => "col", :colspan => '2' } Auditório
   %tr
-    %td 11:00-13:00
+    %td.horario 11:00-13:00
     %td{ :colspan => '2' } Credenciamento de congressistas, inscrição e entrega de material para cursos pré-congresso.
   %tr
-    %td.hora 13:00-17:00
+    %td.horario 13:00-17:00
     %td{ :colspan => '2' } Cursos pré-congresso
   %tr
-    %td 14:00-18:00
+    %td.horario 14:00-18:00
     %td{ :colspan => '2' } Credenciamento, inscrição de congressistas e entrega de material.
   %tr
-    %td 20:00-21:00
-    %td{ :colspan => '2' } Sessão solene de abertura
+    %td.horario 20:00-21:00
+    %td{ :colspan => '2' } Sessão solene de abertura - mercados e feiras: uma cozinha feita a partir dos ingredientes nacionais – Rodrigo (mocotó)
   %tr
-    %td 21:00-24:00
+    %td.horario 21:00-24:00
     %td{ :colspan => '2' } Coquetel de boas-vindas 
   %tr
     %td.dia{ :colspan => '3' } 07/04 - Quarta-Feira (Manhã) 
@@ -31,28 +31,43 @@ title: Programação
     %th{ :scope => "col"}  Cozinha Show A
     %th{ :scope => "col"}  Cozinha Show B
   %tr
-    %td 09:00-12:00
-    %td Oficina de Gastronomia Latinoamericana
-    %td Oficina Brasileira: "Valorização do Regionalismo"
+    %td.horario 09:00-12:00
+    %td.part
+      %p Oficina: Gastronomia e Ciência: Técnicas da cozinha molecucar
+      %p Ministrante: Chef Gabriel Vidolin
+    %td.part
+      %p Oficina: Valorização do regionalismo.
+      %p Ministrantes: Beth Beltrão
   %tr
     %th{ :scope => "col"}  Horário
     %th{ :scope => "col"}  Auditório X
     %th{ :scope => "col"}  Auditório Y
   %tr
-    %td 08:30-08:45
+    %td.horario 08:30-08:45
     %td{ :colspan => '2' } Abertura Oficial
   %tr
-    %td 08:45-09:30
-    %td Palestra: "Alimentação como símbolo cultural e social".
-    %td Palestra: "Política de financiamento para bares, restaurantes e hotéis"
+    %td.horario 08:45-09:30
+    %td.part
+      %p Palestra: História da cozinha brasileira 
+      %p Palestrante: Prof. Ricardo Maranhão
+    %td.part
+      %p Palestra: A importância de uma entidade representativa de classe para consolidação do setor de alimentação fora do lar.
+      %p Palestrante: Paulo Solmuchi
   %tr
-    %td 09:40-10:40
-    %td Mesa Redonda: "Turismo Gastronômico como um veículo para o desenvolvimento do NE"
-    %td Palestra: "Casa Cheia, bolso vazio. O que há de errado?"
+    %td.horario 09:40-10:40
+    %td.part
+      %p Palestra: Gastronomia Funcional e Orgânica – Novas Tendências
+      %p Palestrante: Ana Vládia
+    %td.part
+      Palestra: Desmistificação sobre o vinho: Tradição X Inocação
   %tr
-    %td 10:50-12:30
-    %td -
-    %td Mesa Redonda: "Ano da França no Brasil - História da gastromia francesa e sua influência no Brasil"
+    %td.horario 10:50-12:30
+    %td.part
+      %p Palestra: A arca do gosto Brasil
+      %p Palestrante: Roberta Marins de Sá
+    %td.part
+      %p Palestra: A valorização dos ingredientes do Seridó
+      %p Palestrante: Wani
   %tr
     %td.dia{ :colspan => '3' } 07/04 - Quarta-Feira (Tarde) 
   %tr
@@ -60,31 +75,44 @@ title: Programação
     %th{ :scope => "col"}  Cozinha Experimental A
     %th{ :scope => "col"}  Cozinha Experimental B
   %tr
-    %td 14:00-17:00
-    %td Oficina: "Goumet Nordestino - Utilização de técnicas francesas na preparação de quitutes da região do Seridó".
-    %td Oficina Nordestina: "Elaboração de tapioca e de queijo de manteiga artesanal".
+    %td.horario 14:00-17:00
+    %td.part
+      %p Oficina: "Goumet Nordestino - Utilização de técnicas francesas na preparação de quitutes da região do Seridó".
+      %p Ministrante: François
+    %td.part
+      %p Oficina: Harmonização de cachaças especiais com pratos da culinária regional brasileira.
+      %p Ministrante: Mestre Nélson Duarte
   %tr
     %th{ :scope => "col"}  Horário
     %th{ :scope => "col", :colspan => "2"}  Espaço Z
   %tr
-    %td 13:30-14:30
-    %td{ :colspan => "2"} Exposição de pôsteres
+    %td.horario 13:30-14:30
+    %td{ :colspan => "2"} Exposição de pôsteres - O material necessário para fixação do pôster no painel (gancho, fita adesiva e etc) é de responsabilidade do congressista.
   %tr
     %th{ :scope => "col"}  Horário
     %th{ :scope => "col"}  Auditório X 
     %th{ :scope => "col"}  Auditório Y
   %tr
-    %td 14:30-15:30
-    %td Mesa Redonda: "O poder da crítica gastronômica".
-    %td Palestra: "Histórias das cozinha brasilerira (A história de pratos importantes do país)".
+    %td.horario 14:30-15:30
+    %td.part 
+      %p Palestra: Higiene de alimentos e sua necessidade – lançamento do livro
+      %p Palestrante: Cláudio Lima
+    %td.part
+      %p Palestra: A verdadeira origem do macarrão
+      %p Palestrante:  Michelle Maistro
   %tr
-    %td 15:45-16:45
-    %td Oficina: "Gastronomia e ciência, qual o caminho a seguir".
-    %td Palestra: "Da alimentação à gastronomia".
+    %td.horario 15:45-16:45
+    %td.part
+      %p Palestra: Gastronomia e ciência, qual o caminho a seguir?
+      %p Palestrante: Fabiana Mortimer Amaral
+    %td.part
+      %p Palestra: Novos temperos brasileiros
+      %p Palestrantes: Neide Rigo
   %tr
-    %td 17:00-18:40
-    %td Oficina: -
-    %td Mesa Redonda: "Os 4 P's da administração: Ponto, Promoção, Produto e Preço".
+    %td.horario 17:00-18:40
+    %td.part
+      Palestra: O desafio de implantar qualificação profissional em segurança de alimentos no Brasil.
+    %td.part Mesa Redonda: "Os 4 P's da administração: Ponto, Promoção, Produto e Preço".
   %tr
     %td.dia{ :colspan => '3' } 08/04 - Quinta-Feira (Manhã) 
   %tr
@@ -92,31 +120,45 @@ title: Programação
     %th{ :scope => "col"}  Cozinha Experimental A
     %th{ :scope => "col"}  Cozinha Experimental B
   %tr
-    %td 9:00-12:00
-    %td Oficina: "Ano da França no Brasil - Dicas, segredos e receitas brasileiras com influência francesa".
-    %td Oficina: "Peixes do mar - Dicas, segredos e Receitas".
+    %td.horario 9:00-12:00
+    %td.part 
+      %p Oficina: O cacau é nosso
+      %p Ministrante: Fábio Sicília
+    %td.part
+      %p Oficina: A Paçoca de Pilão de Caicó/RN
+      %p Ministrante: Dona Sel
   %tr
     %th{ :scope => "col"}  Horário
     %th{ :scope => "col", :colspan => "2"}  Espaço Z
   %tr
-    %td 13:30-14:30
-    %td{ :colspan => "2"} Exposição de pôsteres
+    %td.horario 13:30-14:30
+    %td{ :colspan => "2"} Exposição de pôsteres- O material necessário para fixação do pôster no painel (gancho, fita adesiva e etc) é de responsabilidade do congressista.
   %tr
     %th{ :scope => "col"}  Horário
     %th{ :scope => "col"}  Auditório X 
     %th{ :scope => "col"}  Auditório Y
   %tr
-    %td 08:30-09:30
-    %td -
-    %td -
+    %td.horario 08:30-09:30
+    %td.part
+      %p Palestra: A importância do turismo gastronômico.
+      %p Palestrante: Profa. Thaís da Silva Funcia
+    %td.part
+      %p Palestra: Formação da gastronomia papa-gerimum
+      %p Palestrante: Jardelino Lucena
   %tr
-    %td 09:40-11:20
-    %td Palestra: "Importância dos concursos de gastronomia e a participação do Brasil".
-    %td Palestra: "Pontencial do RN para o desenvolvimento do turismo gastronômico".
+    %td.horario 09:40-11:20
+    %td.part
+      %p Palestra: "Importância dos concursos internacionais de gastronomia e a participação do Brasil".
+      %p Palestrante: Profa. Thaís da Silva Funcia
+    %td.part
+      %p Palestra: Formação da gastronomia papa-gerimum
+      %p Palestrante: Jardelino Lucena
   %tr
-    %td 11:30-12:00
-    %td -
-    %td 
+    %td.horario 11:30-12:00
+    %td.part Experiência: Eu participei de um concurso internacional.
+    %td.part 
+      %p Mesa Redonda: A cozinha brasileira – Nacional ou Regional?
+      %p Participantes: Prof. Ricardo Maranhão, Celso Cruz, Chef Lucia Soares
   %tr
     %td.dia{ :colspan => '3' } 08/04 - Quinta-Feira (Tarde) 
   %tr
@@ -124,25 +166,35 @@ title: Programação
     %th{ :scope => "col"}  Cozinha Experimental A
     %th{ :scope => "col"}  Cozinha Experimental B
   %tr
-    %td 14:00-17:00
-    %td Oficina brasileira: "Cozinha Criativa".
-    %td Oficina: "Valorização de ingredientes marginalizados". 
+    %td.horario 14:00-17:00
+    %td.part Oficina: SENAC
+    %td.part
+      %p Oficina: "Valorização de ingredientes marginalizados". 
+      %p Ministrante: Mara Sales
   %tr
     %th{ :scope => "col"}  Horário
     %th{ :scope => "col"}  Auditório X 
     %th{ :scope => "col"}  Auditório Y
   %tr
-    %td 14:30-15:30
-    %td "Mercados e Feiras: Uma cozinha feita a partir dos ingredientes nacionais". 
-    %td Palestra: "Gastronomia Orgânica: Oportunidade de negócios"
+    %td.horario 14:30-15:30
+    %td.part 
+      %p Palestra: Mandioca: A rainha do Brasil
+      %p Palestrante: Tereza Corção
+    %td.part
+      %p Palestra: Legislação de alimentos para serviço de alimentação
+      %p Palestrante: Enio Alves da silva Junior
   %tr
-    %td 15:45-16:45
-    %td Apresentação de "cases": "Camarões e Ostras gigantes"
-    %td - 
-  %tr
-    %td 17:00-18:30
-    %td
-      Mesa Redonda: "A formação do profissional da gastronomia: Gastrônomo ou
-      %em Chef
-      ?"
-    %td Mesa Redonda: "Gastronomia como produto turístico".
+    %td.horario 17:00-18:30
+    %td.part
+      %p
+        Mesa Redonda: "A formação do profissional da gastronomia: Gastrônomo ou
+        %em Chef?"
+      %p
+        Palestrantes: Profa. Rosa Morais (Diretora da Escola de Turismo e Hospitalidade da Anhembi-Morumbi),
+        %br
+        Profa. Paola Tedeschi (Escola de Gastronomia UCS-ICIF) e
+        %br
+        Fabiana Mortimer Amaral
+    %td.part
+      %p Mesa Redonda: Eventos – Experiências e Dificuldades
+      %p Participantes: Simone Muniz – idealizadora do Nordeste Culinária, Celso Cruz, Cíntia Lopes
