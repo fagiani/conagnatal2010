@@ -34,9 +34,18 @@ a {color: #f6ae19 }
 #logo_conag {margin-top: -70px; z-index:3;}
 .start_page { background: url(../images/app/content_bg_index.jpg) no-repeat bottom; }
 .internal_page { background: url(../images/app/content_bg_internal.jpg) no-repeat bottom; padding-bottom: 130px; }
+
 #footer { height: auto; background: url(../images/app/footer_bg_tecido.jpg) top center repeat-x; text-align: center;  }
 #footer .container { width: 940px; margin-left: auto; margin-right: auto; margin-bottom: 10px; padding: 0 10px; background: url(../images/app/footer_bg_rolo.png) no-repeat top left; }
 #footer .patrocinio_apoio { height: 85px ; margin-bottom: 10px; padding: 25px 0px 0px 0px; }
+
+#footer #sponsor { margin-top: 10px; }
+
+#footer #patrocinio img { margin-right: 10px;}
+#footer #patrocinio { margin-left: 20px;}
+
+#footer img#unp { margin-left: -45px; }
+#footer img#ideias { margin-left: -25px; }
 #footer .espace_patrocinio { margin-left: 180px; }
 #footer .espace_promocao { margin-left: 55px; }
 #footer .espace_organizacao { margin-left: 18px; }
