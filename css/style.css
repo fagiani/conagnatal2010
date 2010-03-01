@@ -14,6 +14,7 @@ a {color: #f6ae19 }
 #sidebar li.current { background-color: #fec906; }
 #sidebar li a { font: 14px Helvetica, Arial; color: #fec906; text-decoration: none; width: 160px; }
 #sidebar li.current a { padding-left: 7px; color: #fff; }
+
 #content li a.mail { color: #fec906; }
 #content li span { color: #575757; list-style-type: none; } 
 #content ul.menu li a { font-size:14px; color: #575757; }
@@ -23,10 +24,10 @@ a {color: #f6ae19 }
 #content .when { color:#f6ae19; margin-top:20px; }
 #content .when .date { font-weight:bold; font-size:24px; letter-spacing:-3px; }
 #content .when .where { font-weight:bold; font-size:14px; }
-#content .counter { background: url(../images/app/information_bg_remain_days.jpg) no-repeat right top; height: 90px; }
+#content .counter { background: url(../images/app/information_bg_remain_days.jpg) no-repeat right top; height: 100px; }
 #content .counter .text { padding-top: 5px; }
 #content .counter span { padding-left: 70px; font-family: Georgia; font-size: 14px; color: #6f3415; }
-#content .counter #countdown { font-size: 28px; font-weight: bold; }
+#content .counter #countdown { font-size: 28px; font-weight: bold; margin-left: 13px; }
 #content .presentation .title {font-weight:bold;font-size:1.6em;margin-bottom:8px;color:#f6ae19;}
 #content .photos { margin: 8px 7px 0px 8px; border: 1px solid #d5d5d5; height: 310px; }
 #content .current_photo { background: blue; height: 24px; }
