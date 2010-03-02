@@ -28,21 +28,26 @@ a {color: #f6ae19 }
 #content .counter .text { padding-top: 5px; }
 #content .counter span { padding-left: 70px; font-family: Georgia; font-size: 14px; color: #6f3415; }
 #content .counter #countdown { font-size: 28px; font-weight: bold; margin-left: 13px; }
-#content .presentation .title {font-weight:bold;font-size:1.6em;margin-bottom:8px;color:#f6ae19;}
 #content .photos { margin: 8px 7px 0px 8px; border: 1px solid #d5d5d5; height: 310px; }
 #content .current_photo { background: blue; height: 24px; }
 #logo_conag {margin-top: -70px; z-index:3;}
-.start_page { background: url(../images/app/content_bg_index.jpg) no-repeat bottom; }
-.internal_page { background: url(../images/app/content_bg_internal.jpg) no-repeat bottom; padding-bottom: 130px; }
 
-#footer { height: auto; background: url(../images/app/footer_bg_tecido.jpg) top center repeat-x; text-align: center;  }
-#footer .container { width: 940px; margin-left: auto; margin-right: auto; margin-bottom: 10px; padding: 0 10px; background: url(../images/app/footer_bg_rolo.png) no-repeat top left; }
-#footer .patrocinio_apoio { height: 85px ; margin-bottom: 10px; padding: 25px 0px 0px 0px; }
+#footer.start_page { background: url(../images/app/content_bg_index2.jpg) no-repeat top; margin-top: -70px;  }
+#footer.internal_page { background: url(../images/app/content_bg_internal2.jpg) no-repeat top; }
 
-#footer #sponsor { top: 7px; }
+#footer .presentation { margin-left: 20px; }
+#footer .presentation .title {font-weight:bold;font-size:1.6em;margin-bottom:8px;color:#f6ae19;}
+
+
+#footer.internal_page .patrocinio_apoio { padding-top: 150px;}
+#footer.start_page .patrocinio_apoio { padding-top: 189px;}
+
+#footer .patrocinio_apoio { height: auto; background: url(../images/app/footer_bg_tecido.jpg) bottom center repeat-x; text-align: center;  }
+#footer #sponsor { width: 940px; margin-left: 0px; margin-right: auto; margin-bottom: 10px; padding: 0 10px; background: url(../images/app/footer_bg_rolo.png) no-repeat top left; }
+#footer #sponsor { height: 85px ; margin-bottom: 10px; padding: 25px 0px 0px 0px; top: 7px; }
 
 #footer #patrocinio img { margin-right: 10px;}
-#footer #patrocinio { margin-left: 20px;}
+#footer #patrocinio { margin-left: 28px;}
 
 #footer img#unp { margin-left: -45px; }
 #footer img#ideias { margin-left: -25px; }
