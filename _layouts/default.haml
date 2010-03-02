@@ -14,6 +14,7 @@
     - %w{reset text 960 style}.each do |style|
       %link{:href => "css/#{style}.css", :rel => 'stylesheet'}
     / [if IE]<link rel="stylesheet" href="css/ie.css" type="text/css" media="screen" /><![endif]
+    / [if IE 7]<link rel="stylesheet" href="css/ie7.css" type="text/css" media="screen" /><![endif]
 
   %body
     #header
@@ -38,10 +39,18 @@
         - else
           = content
     .clear
-    #footer
-      .container.container_16
-        .patrocinio_apoio
-          #sponsor.container_16
+    #footer{:class => "#{layout_type}"}
+      - if layout_type == 'start_page'
+        .container_16
+          .presentation.grid_5.prefix_8
+            .title
+              II CONAG | Natal/RN
+            %p
+              Natal tem o prazer de sediar o II Congresso Nacional de Gastronomia. Um evento que visa sedimentar e aprimorar os conhecimentos de estudantes e profissionais das áreas de Gastronomia, Turismo e Hotelaria e será realizado no Centro de Convenções de Natal.
+
+      .patrocinio_apoio
+        .container_16
+          #sponsor
             #patrocinio.grid_4.prefix_4.alpha
               %a{ :href => "http://www.natal.rn.gov.br", :target => "_blank" }
                 %img{ :src => "images/app/natal-logo2.png", :alt => "Prefeitura do Natal", :height => "50px" }
@@ -53,6 +62,7 @@
             .grid_2.omega
               %a{ :href => "http://www.ideiaseventos.com.br", :target => "_blank" }
                 %img#ideias{ :src => "images/app/logo-ideias.jpg", :alt => "Idéias Eventos", :height => "60px" }
+      .container_16
         .copyright
           %span.name
             ©2009 | II CONAG | II Congresso Nacional de Gastronomia
