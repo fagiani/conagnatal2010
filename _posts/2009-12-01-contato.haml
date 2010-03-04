@@ -8,9 +8,9 @@ javascript: $(document).ready(function(){ $('#contato').validate() })
     %label Nome:
     %input.text.required{ :name => 'nome' }
     %label E-mail:
-    %input.text.email{ :name => 'email' }
+    %input.text.email.required{ :name => 'email' }
     %label Telefone:
-    %input.text{ :name => 'telefone' }
+    %input.text.required{ :name => 'telefone' }
     %label Mensagem:
     %textarea.text.required{ :name => 'mensagem' }
     %br
