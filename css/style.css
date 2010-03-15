@@ -8,7 +8,7 @@ a {color: #f6ae19 }
 /* Page Layout */
 #header { text-align: center; height: 146px; background: url(../images/app/header-bg.png) repeat-x scroll 0 0; margin-bottom:8px;}
 #sidebar ul { list-style: none outside; }
-#sidebar li { margin-left: 0; height: 21px; padding-top: 10px; background: url(../images/app/navigation-divider.png) no-repeat bottom; }
+#sidebar li { margin-left: 0; height: 21px; padding-top: 10px; width: 145px; background: url(../images/app/navigation-divider.png) no-repeat bottom; }
 #sidebar li .last { background: url(../images/app/navigation-divider.png) no-repeat bottom; }
 #sidebar li.current { background-color: #fec906; }
 #sidebar li a { font: 14px Helvetica, Arial; color: #fec906; text-decoration: none; width: 160px; }
