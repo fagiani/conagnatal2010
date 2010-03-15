@@ -75,7 +75,7 @@ a {color: #f6ae19 }
 .internal_page #content li p {color:#575757; font-size:12px;}
 .internal_page #logo_conag {margin-top: 0; z-index:3;}
 .internal_page a {color:#333;}
-
+.internal_page #content img.right { margin-right: 20px; }
 /* Tabela */
 
 #tabela{ font-size: 12px; text-align: left; border-collapse: collapse; }
