@@ -7,7 +7,6 @@ a {color: #f6ae19 }
 
 /* Page Layout */
 #header { text-align: center; height: 146px; background: url(../images/app/header-bg.png) repeat-x scroll 0 0; margin-bottom:8px;}
-#header h1 a { display: block; height: 125px; background: url(../images/app/header-title.png) no-repeat center top; }
 #sidebar ul { list-style: none outside; }
 #sidebar li { margin-left: 0; height: 21px; padding-top: 10px; background: url(../images/app/navigation-divider.png) no-repeat bottom; }
 #sidebar li .last { background: url(../images/app/navigation-divider.png) no-repeat bottom; }
