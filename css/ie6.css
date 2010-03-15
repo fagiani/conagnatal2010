@@ -1,0 +1,11 @@
+#content .grid_9.omega { margin-left: -110px; }
+#content .when .date { width: 200px;}
+#content .when .where { width: 220px;}
+#content .counter { margin-left: 10px;}
+
+#footer.start_page { margin-top: -90px;}
+#footer.start_page .presentation p { margin-left: 70px; width: 280px; }
+#footer.start_page .presentation .title { width: 200px; margin-top: 70px; margin-left: 80px; }
+#footer.start_page .patrocinio_apoio { padding-top: 1px; }
+#footer.start_page .patrocinio_apoio #sponsor { margin-left: -17px; padding: 0px; }
+#footer.start_page #sponsor img { margin-top:40px;}
