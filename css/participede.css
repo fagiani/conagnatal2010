@@ -29,3 +29,19 @@ h2.head {display:none;}
 .participede table {margin-bottom:20px;}
 
 .subscribe_button { padding: 10px;}
+
+#guest p {
+    font-size: 13px;
+    line-height: 16px;
+    font-weight: normal;
+    font-family: Arial, Verdana, Helvetica, sans-serif;
+    color: #575757;
+}
+
+#guest p.guest_title {
+    font-weight: bold;
+}
+
+table.activities {
+    margin-bottom: 10px;
+}
