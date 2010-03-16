@@ -42,6 +42,6 @@ h2.head {display:none;}
     font-weight: bold;
 }
 
-table#activities {
+table.activities {
     margin-bottom: 10px;
 }
