@@ -30,6 +30,7 @@ h2.head {display:none;}
 
 .subscribe_button { padding: 10px;}
 
+.message { font-family: Arial; font-size: 12px; }
 #guest p {
     font-size: 13px;
     line-height: 16px;
