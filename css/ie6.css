@@ -1,9 +1,13 @@
-#content .grid_9.omega { margin-left: -110px; }
+.start_page #content .grid_9.omega { margin-left: -110px; }
+.internal_page #content .grid_9.omega { margin-left: -60px; }
+.internal_page #content #logo_conag { margin-left: 25px; }
+.internal_page #content .grid_10.omega iframe { width: 587px; }
 #content .when .date { width: 200px;}
 #content .when .where { width: 220px;}
 #content .counter { margin-left: 10px;}
 
 #footer.start_page { margin-top: -90px;}
+#footer.internal_page { width: 200px;}
 #footer.start_page .presentation p { margin-left: 70px; width: 280px; }
 #footer.start_page .presentation .title { width: 200px; margin-top: 70px; margin-left: 80px; }
 #footer.start_page .patrocinio_apoio { padding-top: 1px; }
