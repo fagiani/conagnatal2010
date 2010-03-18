@@ -32,9 +32,9 @@ a {color: #f6ae19 }
 #logo_conag {margin-top: -70px; z-index:3;}
 
 #footer.start_page { background: url(../images/app/content_bg_index2.jpg) no-repeat top; margin-top: -70px;  }
-#footer.internal_page { background: url(../images/app/content_bg_internal2.jpg) no-repeat top; }
+#footer { background: url(../images/app/content_bg_interna2.jpg) no-repeat top; }
 
-#footer .presentation { margin-left: 20px; }
+#footer .presentation { margin-left: 20px; width: 286px; }
 #footer .presentation .title {font-weight:bold;font-size:1.6em;margin-bottom:8px;color:#f6ae19;}
 
 
