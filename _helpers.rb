@@ -35,15 +35,15 @@ module Helpers
 
   protected
   def guest_description_list(name, items)
-    if items.empty?
-      ''
-    else
-      result = ''
-      result += content_tag('li', name, :class => 'name')
+    result = ''
+    result += content_tag('li', name, :class => 'name')
+
+    unless items.empty?
       items.each do |item|
         result += content_tag('li', item)
       end
-      content_tag 'ul', result
     end
+
+    content_tag 'ul', result
   end
 end
