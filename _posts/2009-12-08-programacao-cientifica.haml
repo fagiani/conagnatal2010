@@ -64,9 +64,6 @@ javascript_imports: jquery.fancybox-1.3.1.pack guests
     %td{ :colspan => '2' }
       %strong Palestra: 
       A Importância de uma Entidade Representativa de Classe para Consolidação do Setor de Alimentação Fora do Lar. 
-      %br
-      %strong Palestrante:
-      Paulo Solmuchi /MG
   %tr
     %td.horario 10:00-10:20
     %td{ :colspan => '2' } 
@@ -234,14 +231,6 @@ javascript_imports: jquery.fancybox-1.3.1.pack guests
     %tr
       %td.horario 14:00-15:00
       %td{ :colspan => '2' }
-        %strong Palestra:
-        Mandioca: A Rainha do Brasil.
-        %br
-        %strong Palestrante:
-        Tereza Corção /RJ
-    %tr
-      %td.horario 15:00-16:00
-      %td{ :colspan => '2' }
         %strong Mesa Redonda:
         A Formação do Profissional da Gastronomia: Gastrônomo, Chef? 
         %br
@@ -251,11 +240,7 @@ javascript_imports: jquery.fancybox-1.3.1.pack guests
           %li
             %span Profª Rosa Morais /SP
     %tr
-      %td.horario 16:00-16:20
-      %td{ :colspan => '2' } 
-        %strong Intervalo
-    %tr
-      %td.horario 16:20-17:20
+      %td.horario 15:00-16:00
       %td{ :colspan => '2' }
         %strong Mesa Redonda:
         Eventos – Experiências e Dificuldades. 
@@ -264,11 +249,15 @@ javascript_imports: jquery.fancybox-1.3.1.pack guests
         %br
         %ul
           %li
-            %span Simone Muniz – Idealizadora do Nordeste Culinária /PE
+            %span Simone Muniz – Idealizadora do Nordeste Culinária /AL
           %li
             %span Celso Cruz /RN
     %tr
-      %td.horario 17:20-18:20
+      %td.horario 16:00-16:20
+      %td{ :colspan => '2' } 
+        %strong Intervalo
+    %tr
+      %td.horario 16:20-17:20
       %td{ :colspan => '2' }
         %strong Palestra:
         O Desafio de Implantar Qualificação Profissional em Segurança de Alimentos no Brasil. 
@@ -278,12 +267,11 @@ javascript_imports: jquery.fancybox-1.3.1.pack guests
         %ul
           %li
             %span Representante da Covisa/SMS Natal /RN
-          %li
-            %span Paulo Solmichi /MG
 
 %h2 Convidados
 
 %ul#guest_list
+  = guest_detail('Celso Cruz', 'celso', 'RN', ['Proprietário de bares típicos regionais em Natal/RN', 'Organizador do festival do camarão (FENACAM)', 'Organizador do Agrosabor (FESTA DO BOI)', 'Organizador do SABOREANDO no seridó'])
   = guest_detail('Cláudio Lima', 'claudio', 'CE', ['Mestre em Tecnologia de Alimentos (UFC)', 'Especialista em Alimentos e Saúde Pública (ANVISA-UFC)', 'Engenheiro de Alimentos (UFC)', 'Colunista do Jornal O Povo e apresentador de TV (programa Inspetor Saúde – TV Jangadeiro/ SBT Fortaleza)'], 'claudio.jpg')
   = guest_detail('Fabio Sicília', 'fabio', 'PA', ['Chefe Master, formado pelo ICIF (Instituto de Culinária Italiano Para Estrangeiros)'])
   = guest_detail('Luis Fernando Perin', 'perin', 'SP', ['Formado em gastronomia pela Universidade Anhembi Morumbi com cursos de especialização nos Estados Unidos e Inglaterra.', 'Trabalhei com Daniel Bulud em New York e com Sergio Arno entre outros em São Paulo.', 'Consultor em gastronomia da TAM – linhas aéreas', 'Chef executivo da VIKING range', 'Professor do curso de Gastronomia e do curso de pós graduação em Padrões Gastronômicos da Universidade Anhembi Morumbi', 'Luis Fernando Perin Gastronomia – realização de eventos para públicos específicos', 'Coordenador e professor do curso de tecnologia em Gastronomia da Universidade Guarulhos-SP'], 'perin.jpg')
@@ -296,3 +284,4 @@ javascript_imports: jquery.fancybox-1.3.1.pack guests
   = guest_detail('Roberta Marins de Sá', 'marins', 'DF', ['Cientista de Alimentos com Doutorado em Bioquímica de Alimentos', 'Presidente da Comissão Brasileira da Arca do Gosto Slow Food', 'Membro da Comissão Internacional da Arca do Gosto', 'Representante do Brasil no Conselho Internacional do Slow Food', 'Líder do Convivium Slow Food Cerrado'])
   = guest_detail('Rodrigo Oliveira', 'rodrigo', 'SP', ['Se formou em Gastronomia e está há 7 anos no comando do Mocotó, aclamado restaurante de cozinha brasileira da capital. Paulistano de 29 anos, o premiado chefe é o responsável pelo novo momento do que um dia foi uma Casa do Norte', 'O estabelecimento foi aberto em 1973 por seu pai, o pernambucano José de Almeida. O pequeno empório fez fama e conquistou o público graças a um prato que estrela o seu cardápio há 35 anos, caldo de mocotó. De lá pra cá, o menu foi se aprimorando, a casa foi crescendo e hoje mostra o melhor da culinária do sertão pra gente de todos os cantos. O restaurante, que vem colecionando prêmios nos últimos anos, vai se consolidando como uma referência para a cozinha regional no Brasil'], 'rodrigo.jpg')
   = guest_detail('Neide Rigo', 'neide', 'SP', ['Trabalha com cozinha experimental no desenvolvimento de receituários', 'É membro da comissão nacional da Arca do Gosto, do Slow Food,  escreve sobre ingredientes para a coluna Cozinha da revista Caras e é editora do Blog Come-se, onde publica curiosidades sobre o mundo dos ingredientes, especialmente brasileiros'])
+  = guest_detail('Juliano Pereira', 'juliano', nil, ['É gastrônomo pelo Senac Águas de São Pedro - SP', 'Professor do curso de cozinheiro do Senac Barreira Roxa', 'Ministra oficinas pelo RN e participa de concursos de gastronomia', 'Mudou-se para Natal há dois anos e ama a gastronomia Potiguar', 'Adora alta gastronomia, mas sente saudades mesmo é da leitoa com farofa e feijão que comia nas férias de infância passadas na fazenda'], 'juliano.jpg')
