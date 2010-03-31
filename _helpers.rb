@@ -19,6 +19,8 @@ module Helpers
     result = ''
     if state
       result += tag('img', :src => "images/flags/#{state}.gif", :class => 'flag')
+    else
+      result += tag('img', :src => "images/flags/default.gif", :class => 'flag')
     end
     name_and_flag = name
     name_and_flag += ' / ' + state unless state.blank?
