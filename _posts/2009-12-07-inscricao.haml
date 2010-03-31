@@ -2,6 +2,7 @@
 layout: default
 title: Inscrição
 layout_type: internal_page
+javascript_imports: jquery.fancybox-1.3.1.pack subscription_alert
 ---
 %ul.menu
   %li
@@ -24,11 +25,20 @@ layout_type: internal_page
 %h3{ :id => "inscricao" } Inscrição
 %iframe{:src => "http://participe.de/events/ii-conag-congresso-nacional-de-gastronomia.iframe?css=http://conagnatal2010.eventos.participe.de/css/participede.css", :width => '700px', :height => '350px', :scrolling => 'no', :frameborder => "0"}
 
-%p
-  %strong
-    ** As inscrições estarão disponíveis na secretaria do evento.
-    %br
-    ** As oficinas terão vagas limitadas: 60 pessoas.
+%a(href='#observacoes' id='observacao_link' style='display:none;')
+%div#observacoes
+  %h3 Observações importantes
+  %ul
+    %li
+      %span
+        As vagas para as oficinas estão esgotadas.
+    %li
+      %span
+        Os inscritos que ainda não escolheram as oficinas poderão selecioná-las acessando este site através do localizador, enviado para seu e-mail no ato do cadastramento.
+    %li
+      %span
+        As inscrições efetuadas no local do evento só darão direito à participação nas palestras que ocorrerão a noite e terão desconto de 50% sobre o valor da tabela de acordo com cada categoria.
+
 %h3{ :id => "procedimentos"} Procedimentos para inscrição
 %div
   %ul
