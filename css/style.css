@@ -6,7 +6,7 @@ p {font-size:1.1em;line-height:14px;margin-bottom:16px;}
 a {color: #f6ae19 }
 
 .guest_detail {display:none;}
-#guest_list li img {margin-right: 3px;}
+#guest_list li img {margin-right: 8px;}
 #fancybox-wrap, #fancybox-inner {width:600px !important;}
 #fancybox-inner ul {float:left; font-size:13px; width:70%;}
 #fancybox-inner li.name {font-size:28px; font-weight:bold; list-style:none; margin-bottom:10px; margin-left:15px;}
