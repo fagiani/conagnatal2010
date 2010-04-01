@@ -9,6 +9,7 @@ a {color: #f6ae19 }
 #guest_list li img {margin-right: 8px;}
 #fancybox-wrap, #fancybox-inner {width:600px !important;}
 #fancybox-inner ul {float:left; font-size:13px; width:70%;}
+#fancybox-inner #observacoes ul { font-size:15px; width:90%;}
 #fancybox-inner li.name {font-size:28px; font-weight:bold; list-style:none; margin-bottom:10px; margin-left:15px;}
 #fancybox-inner img.photo {float:left; border:8px solid #D4D4D4;}
 
@@ -87,11 +88,12 @@ a {color: #f6ae19 }
 /* Tabela */
 
 #tabela{ font-size: 12px; text-align: left; border-collapse: collapse; }
+#tabela.programacao {width:100%;}
 #tabela th{ font-size: 13px; font-weight: normal; padding: 8px; background: #ffe7b8; border-top: 2px solid #fff; border-bottom: 1px solid #fff; color: #575757; }
 #tabela td{ padding: 8px; border-bottom: 1px solid #fff; color: #575757; border-top: 1px solid #fff; background: #fff5e4 }
 #tabela tbody tr:hover td{ background: #fcedd3; color: #575757;} 
 #tabela td.dia { text-align: center; font-weight: bold; }
-#tabela td.horario { width: 100px; }
+#tabela td.horario, #tabela td.local { width: 100px; }
 #tabela td.part { width: 230px; }
 
 /* Contato */

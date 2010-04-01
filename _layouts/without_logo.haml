@@ -1,0 +1,108 @@
+!!! XML
+!!!
+%html(xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en")
+  %head
+    %title
+      II Congresso Nacional de Gastronomia
+      - if page.title
+        \-
+        = page.title
+    %meta{'http-equiv' => 'Content-Type', :content => 'text/html; charset=utf-8'}/
+    %link{:href => "css/sifr.css", :rel => 'stylesheet'}
+    - %w{sifr sifr-config}.each do |js|
+      %script{ :src => "js/#{js}.js", :type => 'text/javascript'}
+    - %w{reset text 960 style jquery.fancybox-1.3.1}.each do |style|
+      %link{:href => "css/#{style}.css", :rel => 'stylesheet'}
+    / [if IE]<link rel="stylesheet" href="css/png_fix.css" type="text/css" />
+    / [if IE 7]<link rel="stylesheet" href="css/ie7.css" type="text/css" media="screen" />
+    / [if IE 6]
+      <link rel="stylesheet" href="css/ie6.css" type="text/css"
+  %body
+    #header
+      %h1
+        %a{ :href => "/"}
+          %img{ :src => "images/app/header-title.png", :alt => " II Congresso Nacional de Gastronomia"}
+    %div{:class => "container_16 #{layout_type}"}
+      #sidebar.grid_3
+        %ul
+          - site.posts.each do |post|
+            %li{:class => "#{'current' if (page.title == post.title)}"}
+              %a{ :href => post.url}= post.title
+
+      #content.grid_13
+        - if layout_type == 'internal_page'
+          .grid_13
+            %h2= page.title
+            = content
+        - else
+          = content
+    .clear
+    #footer{:class => "#{layout_type}"}
+      - if layout_type == 'start_page'
+        .container_16
+          .presentation.grid_5.prefix_8
+            .title
+              II CONAG | Natal/RN
+            %p
+              Natal tem o prazer de sediar o II Congresso Nacional de Gastronomia. Um evento que visa sedimentar e aprimorar os conhecimentos de estudantes e profissionais das áreas de Gastronomia, Turismo e Hotelaria e será realizado no auditório da Unidade Roberto Freire da Universidade Potiguar em Natal.
+
+      .patrocinio_apoio
+        .container_16
+          #sponsor
+            #patrocinio.grid_10.alpha
+              %a{ :href => "http://www.barreiraroxa.com.br/", :target => '_blank'}
+                %img.right(title="Barreira Roxa - Hotel-Escola Senac" src="images/logo-barreira.jpg" alt="Barreira Roxa - Hotel-Escola Senac" height="45px")
+              %a(href="http://www.multibar.com.br/" target='_blank')
+                %img.right(title="Multibar" src="images/logo-multibar.gif" alt="Multibar" height='45px')
+              %a(href="http://www.camaroes.com.br/" target='_blank')
+                %img(title="Camarões Restaurante" src="images/logo-camaroes.gif" alt="Camarões Restaurante" height="45px")
+              %a{ :href => "http://www.natal.rn.gov.br", :target => "_blank" }
+                %img{ :src => "images/logo-prefeitura.png", :alt => "Prefeitura do Natal", :height => "50px" }
+              %a(href="http://www.brasil-natal.com.br/" target='_blank')
+                %img(title="Empresa potiguar de promoção turística" src="images/logo-emprotur.png" alt="Empresa potiguar de promoção turística" height="45px")
+              %a{ :href => "http://www.rn.gov.br", :target => "_blank" }
+                %img{ :src => "images/app/rn-logo.png", :alt => "Governo do RN", :height => "45px" }
+            .grid_2
+              %a{ :href => "http://www.unp.br", :target => "_blank" }
+                %img#unp{ :src => "images/app/logo_unp.png", :alt => "UnP - Universidade Potiguar", :height => "60px" }
+            .grid_2.omega
+              %a{ :href => "http://www.ideiaseventos.com.br", :target => "_blank" }
+                %img#ideias{ :src => "images/app/logo-ideias.jpg", :alt => "Idéias Eventos", :height => "60px" }
+      .container_16
+        .copyright
+          %span.name
+            ©2009 | II CONAG | II Congresso Nacional de Gastronomia
+          %br
+          %span.email
+            %a{ :href => "mailto:conag2010@ideiaseventos.com.br" }
+              conag2010@ideiaseventos.com.br
+    %script{ :src => 'http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js', :type => 'text/javascript' }
+    - %w{sifr sifr-config jquery.tools.min gridder jquery.validate localization/messages_ptbr }.each do |js|
+      %script{ :src => "js/#{js}.js", :type => 'text/javascript'}
+    - if variable(:javascript_imports)
+      - variable(:javascript_imports).split(' ').each do |js|
+        %script{ :src => "js/#{js}.js", :type => 'text/javascript'}
+    - if variable(:javascript)
+      %script{:type => 'text/javascript'}
+        = variable(:javascript)
+    :javascript
+      var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+      document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+    / [if IE 6]
+      :javascript
+        /*Load jQuery if not already loaded*/
+        if(typeof jQuery == 'undefined'){ 
+          document.write("<script type=\"text/javascript\" src=\"http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js\"></"+"script>");
+          var __noconflict = true;
+        }
+        var IE6UPDATE_OPTIONS = {
+          icons_path: "http://static.ie6update.com/hosted/ie6update/images/"
+        }
+      %script{ :type => "text/javascript", :src => "../js/ie6update.js" }
+
+    :javascript
+      try {
+        var pageTracker = _gat._getTracker("UA-12838475-1");
+        pageTracker._trackPageview();
+      }
+      catch(err) {}
