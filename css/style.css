@@ -88,11 +88,12 @@ a {color: #f6ae19 }
 /* Tabela */
 
 #tabela{ font-size: 12px; text-align: left; border-collapse: collapse; }
+#tabela.programacao {width:100%;}
 #tabela th{ font-size: 13px; font-weight: normal; padding: 8px; background: #ffe7b8; border-top: 2px solid #fff; border-bottom: 1px solid #fff; color: #575757; }
 #tabela td{ padding: 8px; border-bottom: 1px solid #fff; color: #575757; border-top: 1px solid #fff; background: #fff5e4 }
 #tabela tbody tr:hover td{ background: #fcedd3; color: #575757;} 
 #tabela td.dia { text-align: center; font-weight: bold; }
-#tabela td.horario { width: 100px; }
+#tabela td.horario, #tabela td.local { width: 100px; }
 #tabela td.part { width: 230px; }
 
 /* Contato */
