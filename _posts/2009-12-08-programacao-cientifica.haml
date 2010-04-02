@@ -151,7 +151,7 @@ javascript_imports: jquery.fancybox-1.3.1.pack guests
     %th{ :scope => "col"}  Palestras
     %th{ :scope => "col"}  Local
   %tr
-    %td.horario{:rowspan => 2} 19:30-20:15
+    %td.horario{:rowspan => 3} 19:30-20:15
     %td
       %strong Tema:
       A importância do estágio, extensão e dos concursos na vida do profissional da gastronomia
@@ -167,10 +167,20 @@ javascript_imports: jquery.fancybox-1.3.1.pack guests
       %strong Ministrante:
       Rafael Barros /SP
     %td Sala 2
+  %tr
+    %td
+      %strong Tema:
+      Higiene de alimentos e sua necessidade - Lançamento do livro
+      %br
+      %strong Ministrante:
+      Cláudio Lima /CE
+    %td Sala 3
+
 
 %h2 Convidados
 
 %ul#guest_list
+  = guest_detail('Cláudio Lima', 'claudio', 'CE', ['Mestre em Tecnologia de Alimentos (UFC)', 'Especialista em Alimentos e Saúde Pública (ANVISA-UFC)', 'Engenheiro de Alimentos (UFC)', 'Colunista do Jornal O Povo e apresentador de TV (programa Inspetor Saúde – TV Jangadeiro/ SBT Fortaleza)'], 'claudio.jpg')
   = guest_detail('Fábio Sicília', 'fabio', 'PA', ['Chefe Master, formado pelo ICIF (Instituto de Culinária Italiano Para Estrangeiros)'], 'fabio.jpg')
   = guest_detail('Gabriel Vindolin', 'gabriel', 'SP', [])
   = guest_detail('Gilvan Passos', 'gilvan', 'RN', [])
