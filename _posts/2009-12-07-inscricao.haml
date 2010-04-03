@@ -2,6 +2,7 @@
 layout: default
 title: Inscrição
 layout_type: internal_page
+javascript_imports: jquery.fancybox-1.3.1.pack subscription_alert
 ---
 %ul.menu
   %li
@@ -24,11 +25,22 @@ layout_type: internal_page
 %h3{ :id => "inscricao" } Inscrição
 %iframe{:src => "http://participe.de/events/ii-conag-congresso-nacional-de-gastronomia.iframe?css=http://conagnatal2010.eventos.participe.de/css/participede.css", :width => '700px', :height => '350px', :scrolling => 'no', :frameborder => "0"}
 
+%a(href='#observacoes' id='observacao_link' style='display:none;')
+%div#observacoes
+  %h3 Observações importantes
+  %ul
+    %li
+      %span
+        As inscrições foram prorrogadas até segunda-feira - 05/04/2010.
+    %li
+      %span
+        O pagamento poderá ser efetuado através de cartão de crédito ou no local do evento em espécie.
+
 %h3{ :id => "procedimentos"} Procedimentos para inscrição
 %div
   %ul
     %li
-      %span As inscrições deverão ser efetuadas, através deste site até 05/04/2010. Após esta data, somente no local do evento;
+      %span As inscrições deverão ser efetuadas, através deste site até 29/03/10. Após esta data, somente no local do evento;
     %li
       %span Estudante de Graduação, Estudante de Pós-Graduação deverão enviar declaração de estudante para o e-mail:
       %a.mail{ :href => "mailto:conag2010@ideiaseventos.com.br" }
